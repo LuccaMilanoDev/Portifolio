@@ -48,8 +48,8 @@ ul {
     transition: all 0.5s;
   }
   ul li a:hover {
-    /*background: var(--surfarce-color-hover);
-    border: 1px solid var(--text-color);*/
+    background: rgba(0, 0, 0, 0.02);
+    border: 1px solid white;
   }
   #social-links {
     display: flex;
@@ -65,4 +65,8 @@ ul {
     padding: 16px;
     transition: all 0.5s;
     border-radius: 50%;
+  }
+
+  #social-links a:hover{
+    background: rgba(255, 255, 255, 0.2);
   }
