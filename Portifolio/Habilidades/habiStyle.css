@@ -1,0 +1,26 @@
+*{
+    color: white;
+}
+body{
+    background: url(../images/SL-043021-42650-26.jpg) no-repeat top center/cover;
+    height: 100vh;
+}
+h1{
+    margin-top: 50px;
+    text-align: center;
+}
+.languages {
+    display: flex; 
+    flex-wrap: wrap; /* Permite que os itens sejam distribuídos em várias linhas */
+    justify-content: center;
+    margin-top: 80px;
+    gap: 20px; /* Adiciona um espaçamento entre as divs */
+}
+
+#html, #css, #js, #java {
+    flex: 0 1 calc(50% - 20px); /* Divide o contêiner em duas colunas com gap */
+    padding: 24px;
+    max-width: 400px;
+    background-color: rgba(0, 0, 0, 0.5); /* Adiciona um fundo para visualização */
+    margin-bottom: 20px; 
+}
