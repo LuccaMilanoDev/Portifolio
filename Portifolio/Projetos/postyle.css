@@ -1,0 +1,37 @@
+body{
+    background: url(../images/SL-043021-42650-26.jpg) no-repeat top center/cover;
+    height: 100vh;
+}
+.pictures{
+    display: flex; 
+    flex-wrap: wrap; /* Permite que os itens sejam distribuídos em várias linhas */
+    justify-content: center;
+    margin-top: 80px;
+    gap: 10px; 
+}
+#password, #project2, #project3, #project4 {
+    flex: 0 1 calc(50% - 20px); /* Divide o contêiner em duas colunas com gap */
+    padding: 24px;
+    max-width: 400px;
+    margin-bottom: 20px; 
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+
+#password img, #project2 img, #project3 img, #project4 img {
+    max-width: 100%; 
+    height: auto;
+}
+
+#password, #project2 {
+    align-self: flex-start; 
+}
+
+#project3, #project4 {
+    align-self: flex-end;
+}
+
+#password a:hover{
+    border: 1px solid white;
+}
