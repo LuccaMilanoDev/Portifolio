@@ -1,5 +1,12 @@
+:root{
+  --text-color: white;
+}
+.light{
+  --text-color: black;
+}
+
 *{
-    color: white;
+  color: var(--text-color);
 }
 body{
     background: url(./images/SL-043021-42650-26.jpg) no-repeat top center/cover;
@@ -49,7 +56,7 @@ ul {
   }
   ul li a:hover {
     background: rgba(0, 0, 0, 0.02);
-    border: 1px solid white;
+    border: 1px solid var(--text-color);
   }
   #social-links {
     display: flex;
@@ -74,5 +81,5 @@ ul {
 .contact{
   display: flex;
   justify-content: center;
-  gap: 10px;
+  gap: 30px;
 }
