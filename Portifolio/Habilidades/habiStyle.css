@@ -1,26 +1,52 @@
-*{
-    color: white;
-}
-body{
-    background-color: black;
-    height: 100vh;
-}
-h1{
-    margin-top: 50px;
-    text-align: center;
-}
-.languages {
-    display: flex; 
-    flex-wrap: wrap; /* Permite que os itens sejam distribuídos em várias linhas */
-    justify-content: center;
-    margin-top: 80px;
-    gap: 20px; /* Adiciona um espaçamento entre as divs */
+
+
+body {
+  background: url(../images/SL-043021-42650-26.jpg) no-repeat top center/cover;
+  height: 100vh;
 }
 
-#html, #css, #js, #java {
-    flex: 0 1 calc(50% - 20px); /* Divide o contêiner em duas colunas com gap */
-    padding: 24px;
-    max-width: 400px;
-    background-color: rgba(0, 0, 0, 0.5); /* Adiciona um fundo para visualização */
-    margin-bottom: 20px; 
+h1 {
+  color: white;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.languages {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 80px;
+  gap: 20px;
+}
+
+.language {
+  color: black;
+  background: rgba(255, 255, 255, 0.5);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  flex: 0 1 calc(50% - 20px);
+  padding: 24px;
+  max-width: 400px;
+  margin-bottom: 20px;
+  text-align: justify;
+  position: relative;
+}
+
+.skill-description {
+  position: relative;
+  z-index: 1;
+}
+
+.logo {
+  width: auto;
+  height: auto;
+  max-width: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 0;
 }
