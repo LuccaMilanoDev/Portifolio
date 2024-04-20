@@ -20,6 +20,7 @@ body{
 }
 
 #password img, #project2 img, #project3 img, #project4 img {
+    
     max-width: 100%; 
     height: auto;
 }
