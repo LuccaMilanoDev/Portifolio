@@ -1,4 +1,16 @@
 body{
     background: url(../images/SL-043021-42650-26.jpg) no-repeat top center/cover;
-    height: 100vh;
+
+}
+
+.container{
+    width: 400px;
+    height: 400px;
+    background-color: bisque;
+    margin: auto;
+    margin-top: 90px;
+}
+.form{
+    text-align: center;
+    padding-top: 16px;
 }
