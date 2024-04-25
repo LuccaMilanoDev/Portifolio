@@ -14,7 +14,10 @@ h1 {
 .languages {
   display: flex;
   flex-wrap: wrap;
+  width: 1200px;
   justify-content: center;
+  text-align: center;
+  margin: 0 auto;
   margin-top: 80px;
   gap: 20px;
 }
@@ -27,9 +30,8 @@ h1 {
   -webkit-backdrop-filter: blur(0px);
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
-  flex: 0 1 calc(50% - 20px);
   padding: 24px;
-  max-width: 400px;
+  max-width: 500px;
   margin-bottom: 20px;
   text-align: justify;
   position: relative;
