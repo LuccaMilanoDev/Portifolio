@@ -1,37 +1,74 @@
-body{
-    background: url(../images/SL-043021-42650-26.jpg) no-repeat top center/cover;
-    height: 100vh;
+body {
+  background: url(../images/SL-043021-42650-26.jpg) no-repeat top center/cover;
+  height: 100vh;
 }
-.pictures{
-    display: flex; 
-    flex-wrap: wrap; /* Permite que os itens sejam distribuídos em várias linhas */
-    justify-content: center;
-    width: 1000px;
-    margin: 0 auto;
-    margin-top: 80px;
-    gap: 10px; 
+* {
+  color: white;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-#password, #project2, #project3, #project4 {
-    flex: 0 1 calc(50% - 20px); /* Divide o contêiner em duas colunas com gap */
-    padding: 24px;
-    max-width: 400px;
-    margin-bottom: 20px; 
-    display: flex;
-    align-items: center; 
-    justify-content: center;
+.pictures {
+  display: flex;
+  flex-wrap: wrap; /* Permite que os itens sejam distribuídos em várias linhas */
+  justify-content: center;
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 80px;
+  gap: 10px;
 }
-
-
-
-
-#password, #project2 {
-    align-self: flex-start; 
-}
-
-#project3, #project4 {
-    align-self: flex-end;
+#password,
+#project2,
+#project3,
+#project4 {
+  flex: 0 1 calc(50% - 20px); /* Divide o contêiner em duas colunas com gap */
+  padding: 24px;
+  max-width: 400px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-#password a:hover{
-    border: 1px solid white;
+#password,
+#project2 {
+  align-self: flex-start;
+}
+
+#project3,
+#project4 {
+  align-self: flex-end;
+}
+
+#password a:hover {
+  border: 1px solid white;
+}
+
+/*header*/
+header {
+  width: 100%;
+  height: 60px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: rgba(255, 255, 255, 0);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
+}
+.menu li {
+  display: inline-block;
+  margin: 0 10px;
+}
+.menu li a {
+  font-size: 24px;
+  text-decoration: none;
+  padding: 10px 15px;
+}
+
+.menu li a:hover {
+  border-top: 4px solid #ffffff;
+  border-bottom: 4px solid #ffffff;
+  padding: 10px 13px;
 }
