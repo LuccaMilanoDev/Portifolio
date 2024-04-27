@@ -8,19 +8,33 @@ body {
   background: url(../images/SL-043021-42650-26.jpg) no-repeat top center/cover;
 }
 
-#text {
+.container h1{
   text-align: center;
 }
-.p {
+.container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  width: 90%; /* Ajuste conforme necessário */
+  max-width: 800px; /* Ajuste conforme necessário */
+  margin: 250px 200px;
+  padding: 20px;
+  font-size: 30px;
+}
+
+img{
+  width: 300px; /* Ajuste conforme necessário */
+  height: auto; /* Isso mantém a proporção da imagem */
+  position: absolute;
+  top: 50%; /* Posiciona a imagem a partir do topo */
+  right: 20px; /* Distância da borda direita da janela */
+  transform: translateY(-50%); /* Ajusta a posição verticalmente */
+  margin-right: 300px;
 }
 
 .p p {
-  font-weight: 600;
-  max-width: 450px;
+  max-width: 100%; /* Para garantir que o texto se ajuste à largura do container */
 }
+
+
 
 /*header*/
 header {
