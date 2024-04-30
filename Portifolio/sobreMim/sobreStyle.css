@@ -13,29 +13,29 @@ body {
 }
 .container {
   display: flex;
-  width: 90%; /* Ajuste conforme necessário */
-  max-width: 800px; /* Ajuste conforme necessário */
-  margin: 250px 200px;
+  width: 90%; 
+  max-width: 800px; 
+  margin: 12% 10%;
   padding: 20px;
   font-size: 30px;
 }
 
 img{
-  width: 300px; /* Ajuste conforme necessário */
-  height: auto; /* Isso mantém a proporção da imagem */
+  width: 300px;  
   position: absolute;
-  top: 50%; /* Posiciona a imagem a partir do topo */
-  right: 20px; /* Distância da borda direita da janela */
+  top: 50%; 
+  right: 5%; 
   transform: translateY(-50%); /* Ajusta a posição verticalmente */
-  margin-right: 300px;
+  margin-right: 15%;
 }
 
 .p p {
-  max-width: 100%; /* Para garantir que o texto se ajuste à largura do container */
+  max-width: 100%; 
 }
 
-
-
+@media(max-width:750px){
+  
+}
 /*header*/
 header {
   width: 100%;

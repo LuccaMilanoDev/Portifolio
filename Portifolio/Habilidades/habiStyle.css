@@ -1,5 +1,4 @@
 
-
 body {
   background: url(../images/SL-043021-42650-26.jpg) no-repeat top center/cover;
   height: 100vh;
@@ -20,6 +19,8 @@ h1 {
   margin: 0 auto;
   margin-top: 80px;
   gap: 20px;
+  height: 50vh;
+  font-size: 20px;
 }
 
 .language {
@@ -67,11 +68,11 @@ header {
   -webkit-backdrop-filter: blur(0px);
 }
 .menu li {
-  color: white;
   display: inline-block;
   margin: 0 10px;
 }
 .menu li a {
+  color: #ffffff;
   font-size: 24px;
   text-decoration: none;
   padding: 10px 15px;
