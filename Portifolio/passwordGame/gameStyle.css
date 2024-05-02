@@ -7,17 +7,27 @@ body {
   box-sizing: border-box;
 }
 .container {
-  width: 400px;
-  height: 400px;
-  background-color: bisque;
+  width: 450px;
+  height: 500px;
+  background-color: purple;
+  font-size: 20px;
   margin: auto;
   margin-top: 90px;
+  border: solid plum 1px;
 }
 .form {
   text-align: center;
   padding-top: 16px;
 }
+#number, #send{
+  padding: 5px; 
+}
 
+.return{
+  padding-top: 3px;
+  color: black;
+  text-align: center;
+}
 /*header*/
 header {
   width: 100%;
@@ -36,6 +46,7 @@ header {
   margin: 0 10px;
 }
 .menu li a {
+  color: #ffffff;
   font-size: 24px;
   text-decoration: none;
   padding: 10px 15px;
