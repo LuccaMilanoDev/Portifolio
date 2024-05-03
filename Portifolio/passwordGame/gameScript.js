@@ -68,6 +68,8 @@ function randomNumber(){
 function clean(){
     printar = "<p class='win'>YOU WIN</p>"
     div.innerHTML+= printar;
+    printar = "<p class='return'>Type it to play again</p>"
+    div.innerHTML += printar;
     win = true;
 }
 function print(number, bulls, cows){

@@ -3,23 +3,29 @@ body {
 }
 * {
   padding: 0;
+  color: #ffffff;
   margin: 0;
   box-sizing: border-box;
 }
 .container {
   width: 450px;
   height: 500px;
-  background-color: purple;
+  background: rgba( 255, 255, 255, 0 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 0px );
+  -webkit-backdrop-filter: blur( 0px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
   font-size: 20px;
   margin: auto;
   margin-top: 90px;
-  border: solid plum 1px;
 }
 .form {
   text-align: center;
   padding-top: 16px;
 }
 #number, #send{
+  color: black;
   padding: 5px; 
 }
 .win{
@@ -29,7 +35,7 @@ body {
 
 .return{
   padding-top: 3px;
-  color: black;
+  color: white;
   text-align: center;
 }
 /*header*/
