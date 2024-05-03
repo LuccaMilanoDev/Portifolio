@@ -3,9 +3,10 @@ body {
   background: url(../images/SL-043021-42650-26.jpg) no-repeat top center/cover;
   height: 100vh;
 }
-
+*{
+  color: #ffffff;
+}
 h1 {
-  color: white;
   margin-top: 50px;
   text-align: center;
 }
@@ -24,8 +25,10 @@ h1 {
 }
 
 .language {
-  color: black;
-  background: rgba(255, 255, 255, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgba(255, 255, 255, 0);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(0px);
   -webkit-backdrop-filter: blur(0px);
@@ -47,11 +50,11 @@ h1 {
   width: auto;
   height: auto;
   max-width: 100px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  justify-content: center;
   z-index: 0;
+}
+.logoJava{
+  width: 140px;
 }
 
 /*header*/
@@ -72,7 +75,6 @@ header {
   margin: 0 10px;
 }
 .menu li a {
-  color: #ffffff;
   font-size: 24px;
   text-decoration: none;
   padding: 10px 15px;
