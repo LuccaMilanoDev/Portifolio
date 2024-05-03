@@ -1,5 +1,8 @@
 let index = 0;
-const password = randomNumber();
+let password = randomNumber();
+let printar = "";
+let win = false;
+const div = document.getElementById('result');
 const value=document.getElementById('number').addEventListener('input', function() {
     if (this.value.length > 4) {
         this.value = this.value.slice(0, 4);
@@ -15,6 +18,13 @@ send.addEventListener("click", function(e){
 
 function check(number){
     console.log(password);
+    if(win){
+        div.innerHTML = "";
+        printar= ""
+        index=0;
+        password = randomNumber();
+        win = false;
+    }
     let bulls=0;
     let cows=0;
     if(number.length < 4){
@@ -35,6 +45,9 @@ function check(number){
             cows=cows-bulls;
         }
         print(number, bulls, cows);
+        if(bulls ===4){
+            clean();
+        }
         console.log(bulls)
         console.log(cows)
     }
@@ -53,11 +66,12 @@ function randomNumber(){
     return randomNumber;
 }
 function clean(){
-
+    printar = "<p class='win'>YOU WIN</p>"
+    div.innerHTML+= printar;
+    win = true;
 }
 function print(number, bulls, cows){
-    const div = document.getElementById('result');
-    let printar = "<p class='return'>"+index+
+    printar = "<p class='return'>"+index+
     " "+number+" "+bulls+"B"+" "+cows+"C"+" </p>"
-    div.innerHTML+=printar
+    div.innerHTML+=printar;
 }
