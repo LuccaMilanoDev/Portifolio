@@ -17,7 +17,7 @@ body {
   max-width: 800px; 
   margin: 12% 10%;
   padding: 20px;
-  font-size: 30px;
+  font-size: 27px;
 }
 
 img{
@@ -33,9 +33,6 @@ img{
   max-width: 100%; 
 }
 
-@media(max-width:750px){
-  
-}
 /*header*/
 header {
   width: 100%;
