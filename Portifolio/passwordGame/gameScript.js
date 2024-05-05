@@ -12,12 +12,10 @@ const send = document.querySelector('#send');
 send.addEventListener("click", function(e){
     e.preventDefault();
     const number = document.querySelector('#number').value;
-    console.log(number)
     check(number);
 })
 
 function check(number){
-    console.log(password);
     if(win){
         div.innerHTML = "";
         printar= ""
@@ -41,6 +39,7 @@ function check(number){
             }
             for(let k=0;k<4;k++){
                 if(number[k]===number[k+1]){
+                    index=index-1;
                     Swal.fire({
                         icon: "error",
                         title: "Oops...",
@@ -60,8 +59,6 @@ function check(number){
         if(bulls ===4){
             clean();
         }
-        console.log(bulls)
-        console.log(cows)
     }
 }
 
