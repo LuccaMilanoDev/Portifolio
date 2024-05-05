@@ -28,7 +28,11 @@ function check(number){
     let bulls=0;
     let cows=0;
     if(number.length < 4){
-        alert("Precisamos de 4 digitos")
+        Swal.fire({
+            icon: "error",
+            title: "Oops...",
+            text: "Minimo de 4 digitos",
+          });
     }else{
         index=index+1;
         for(let i = 0;i<4;i++){
@@ -36,6 +40,14 @@ function check(number){
                 bulls=bulls+1;
             }
             for(let k=0;k<4;k++){
+                if(number[k]===number[k+1]){
+                    Swal.fire({
+                        icon: "error",
+                        title: "Oops...",
+                        text: "Digite apenas numeros distintos",
+                      });
+                    return;
+                }
                 if(number[k]=== password[i]){
                     cows=cows+1;
                 }
