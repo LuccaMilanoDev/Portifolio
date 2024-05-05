@@ -10,7 +10,7 @@ body {
 }
 .pictures {
   display: flex;
-  flex-wrap: wrap; /* Permite que os itens sejam distribuídos em várias linhas */
+  flex-wrap: wrap; 
   justify-content: center;
   width: 1000px;
   margin: 0 auto;
@@ -21,7 +21,7 @@ body {
 #project2,
 #project3,
 #project4 {
-  flex: 0 1 calc(50% - 20px); /* Divide o contêiner em duas colunas com gap */
+  flex: 0 1 calc(50% - 20px); 
   padding: 24px;
   max-width: 400px;
   margin-bottom: 20px;
