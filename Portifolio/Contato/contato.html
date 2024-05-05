@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="contatoStyle.css">
+</head>
+<body>
+    <header>
+        <div class="menu">
+          <ul>
+            <li>
+              <a href="/index.html">Home</a>
+            </li>
+          </ul>
+        </div>
+      </header>
+    <section>
+        <h2>Contato</h2>
+        <form action="https://api.staticforms.xyz/submit" method="post">
+            <label for="name">Nome</label>
+            <input type="text" name="name" placeholder="Digite seu nome" required>
+            <label for="email">Email</label>
+            <input type="email" name="email" placeholder="Digite seu email" required>
+            <label for="mensage">Mensagem</label>
+            <textarea name="message" id="" cols="30" rows="10" placeholder="Digite sua mensagem" required></textarea>
+            <button type="submit">Enviar</button>
+
+            <input type="hidden" name="accessKey" value="d4311f48-07be-4e46-88cb-e011ff1e1acd">
+            <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/Portifolio/Contato/obrigado.html"> 
+        </form>
+    </section>
+</body>
+</html>
