@@ -38,15 +38,6 @@ function check(number){
                 bulls=bulls+1;
             }
             for(let k=0;k<4;k++){
-                if(number[k]===number[k+1]){
-                    index=index-1;
-                    Swal.fire({
-                        icon: "error",
-                        title: "Oops...",
-                        text: "Digite apenas numeros distintos",
-                      });
-                    return;
-                }
                 if(number[k]=== password[i]){
                     cows=cows+1;
                 }
