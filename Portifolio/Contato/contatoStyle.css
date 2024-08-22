@@ -2,7 +2,7 @@
   margin: 0;
 }
 body {
-  background: url(../images/SL-043021-42650-26.jpg) no-repeat top center/cover;
+  background: black;
 }
 section {
   margin-top: 5%;
@@ -80,7 +80,7 @@ form button:hover {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background: url(../images/SL-043021-42650-26.jpg) no-repeat top center/cover;
+  background: black;
   flex-direction: column;
 }
 .text {

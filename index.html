@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portifolio</title>
-    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
@@ -14,35 +14,161 @@
             <a href="index.html">Home</a>
           </li>
           <li>
-            <a href="./Portifolio/passwordGame/game.html">Passoword Game</a>
+            <a href="#">Skills</a>
+          </li>
+          <li>
+            <a href="#">Projects</a>
           </li>
           <li>
             <a href="./Portifolio/Contato/contato.html">Contato</a>
           </li>
+          <li>
+            <a href="./Portifolio/pdf/Currículo (3).pdf" target="_blank"
+              >Curriculo</a
+            >
+          </li>
         </ul>
       </div>
     </header>
-    <div id="container">
-      <div id="profile">
-        <img src="./Portifolio/images/avatar.png" alt="Erro nao achou imagem" />
-        <p>@LuccaMilanoDev</p>
+    <div class="containerHome">
+      <div class="text">
+        <h2>
+          Hey my name is Lucca and I'm trying to do a new Portfolio. I'm
+          currently studying Computer Science at the Universidade Catolica de
+          Pernambuco and I'm in the 6th period.
+        </h2>
+        <div id="social-links">
+          <a href="https://github.com/LuccaMilanoDev" target="_blank">
+            <ion-icon name="logo-github"></ion-icon>
+          </a>
+          <a href="https://www.instagram.com/luccamilano234/" target="_blank">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/lucca-milano-casado-dos-santos-07b179236/"
+            target="_blank"
+          >
+            <ion-icon name="logo-linkedin"></ion-icon>
+          </a>
+          <a href="https://wa.me/5581992510271" target="_blank">
+            <ion-icon name="logo-whatsapp"></ion-icon>
+          </a>
+        </div>
       </div>
-      <ul class="links">
-        <li>
-          <a href="./Portifolio/sobreMim/pageSobre.html">Sobre Mim</a>
-        </li>
-        <li>
-          <a href="./Portifolio/Habilidades/pageHabi.html">Habilidades</a>
-        </li>
-        <li>
-          <a href="./Portifolio/Projetos/projetos.html">Projetos</a>
-        </li>
-        <li>
-          <a href="./Portifolio/pdf/Currículo.pdf" target="_blank">Curriculo</a>
-        </li>
-      </ul>
+      <div class="picture">
+        <img src="./Portifolio/images/avatar.png" alt="My picture" />
+      </div>
     </div>
-    <div id="social-links">
+    <h2 id="titleSkills">My skills</h2>
+    <div class="languages">
+      <div class="row">
+        <div id="html" class="language">
+          <div class="logoHtml">
+            <img src="./Portifolio/images/html.svg" alt="" class="logo" />
+          </div>
+          <div class="skill-description">
+            Explorando HTML recentemente, tenho sólido entendimento dos seus
+            princípios fundamentais, permitindo-me criar interfaces intuitivas e
+            acessíveis. Estou comprometido em expandir meu conhecimento nesta
+            linguagem para oferecer soluções mais eficazes.
+          </div>
+        </div>
+        <div id="css" class="language">
+          <div class="logocss">
+            <img src="./Portifolio/images/css.svg" alt="" class="logo" />
+          </div>
+          <div class="skill-description">
+            Minha experiência com CSS se destaca em projetos recentes, incluindo
+            aqueles disponíveis em meu portfólio no GitHub. Através do CSS, sou
+            capaz de criar layouts sofisticados e responsivos, aprimorando a
+            apresentação visual de páginas HTML.
+          </div>
+        </div>
+        <div id="js" class="language">
+          <div class="logoJs">
+            <img src="./Portifolio/images/js.svg" alt="" class="logo" />
+          </div>
+          <div class="skill-description">
+            Despertei interesse em JavaScript durante meus estudos na faculdade
+            e tenho me dedicado a explorar suas possibilidades. Minha
+            experiência inclui a criação de interações dinâmicas e responsivas
+            em páginas da web, além do desenvolvimento de aplicações mais
+            complexas.
+          </div>
+        </div>
+      </div>
+      <div id="java" class="language">
+        <div class="logoJava">
+          <img src="./Portifolio/images/java.svg" alt="erro" class="logo" />
+        </div>
+        <div class="skill-description">
+          Com um histórico sólido em Java, possuo um profundo entendimento dessa
+          linguagem. Meu conhecimento abrange não apenas os conceitos
+          fundamentais de Java, mas também sua aplicação em uma variedade de
+          contextos. Além disso, domino os princípios da Programação Orientada a
+          Objetos.
+        </div>
+      </div>
+      <div id="js" class="language">
+        <div class="logoJs">
+          <img src="./Portifolio/images/react.svg" alt="" class="logo" />
+        </div>
+        <div class="skill-description">
+          Despertei interesse em JavaScript durante meus estudos na faculdade e
+          tenho me dedicado a explorar suas possibilidades. Minha experiência
+          inclui a criação de interações dinâmicas e responsivas em páginas da
+          web, além do desenvolvimento de aplicações mais complexas.
+        </div>
+      </div>
+    </div>
+    <h2 class="tittleProjects">Projects</h2>
+    <h3 class="project1">GitPlus</h3>
+    <div class="projects">
+      <div class="text">
+        <h3>
+          Simulação de uma plataforma de streaming utilizando JS e back4app.
+          Nessa plataforma fizemos um sistema de cadastro de clientes onde
+          salvamos no back4app. Cada cliente tem sua propria lista de filmes e
+          pode fazer uma assinatura onde garante 3 perfis.
+        </h3>
+      </div>
+      <div class="pictureProject">
+        <a
+          href="https://github.com/RianDelou/GitPlus.git"
+          target="_blank"
+          id="hover"
+        >
+          <img
+            src="./Portifolio/images/gitPlus.png"
+            alt="streaming img"
+            id="imgProject"
+          />
+        </a>
+      </div>
+    </div>
+    <h3 class="project2">Todo List com Local Storage</h3>
+    <div class="projects">
+      <div class="text">
+        <h3>
+          Uma todo list com varias funcionalidades(pesquisa, filtro, ediçao de
+          tarefa e etc). Salva também na Local Storage.
+        </h3>
+      </div>
+      <div class="pictureProject">
+        <a
+          href="https://github.com/RianDelou/GitPlus.git"
+          target="_blank"
+          id="hover"
+        >
+          <img
+            src="./Portifolio/images/todoList.png"
+            alt="streaming img"
+            id="imgProject"
+          />
+        </a>
+      </div>
+    </div>
+    <!-- <div id="social-links">
       <a href="https://github.com/LuccaMilanoDev" target="_blank">
         <ion-icon name="logo-github"></ion-icon>
       </a>
@@ -65,6 +191,7 @@
         <p>(81) 992510271</p>
       </div>
     </footer>
+    -->
     <script
       type="module"
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
