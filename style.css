@@ -110,7 +110,6 @@ header {
   border: 1px solid rgba(255, 255, 255, 0.18);
   padding: 24px;
   max-width: 500px;
-  margin-bottom: 20px;
   text-align: justify;
   position: relative;
 }
@@ -132,7 +131,7 @@ header {
 }
 
 #titleSkills {
-  margin-top: 17%;
+  margin-top: 20%;
   text-align: center;
 }
 
@@ -159,9 +158,10 @@ header {
 #imgProject {
   width: 900px;
   height: 600px;
+  border: solid 1px white;
 }
 #hover :hover {
-  border: solid 1px white;
+  border: solid 10px white;
 }
 .text {
   font-size: 20px;
